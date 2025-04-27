@@ -193,19 +193,6 @@ Code Highlighting: Prism.js or Highlight.js
 Diagram Libraries: Vis.js (optional for Graphs)
 
 Backend (Optional for saving states): Node.js + Express
-
-📷 Screenshots (Examples)
-### searching Visualization
-screenshots/Screenshot 2025-04-27 122018.png
-### Sorting Visualization
-screenshots/Screenshot 2025-04-27 122106.png
-### queue Visualization
-screenshots/Screenshot 2025-04-27 122159.png
-### Graph Visualization
-screenshots/Screenshot 2025-04-27 122238.png
-### Hash Operations
-screenshots/Screenshot 2025-04-27 122302.png
-
 Array sorting animation
 
 Stack push/pop animation
