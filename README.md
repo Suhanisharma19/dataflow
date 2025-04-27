@@ -196,15 +196,15 @@ Backend (Optional for saving states): Node.js + Express
 
 📷 Screenshots (Examples)
 ### searching Visualization
-![Searching Visualization](screenshots/Screenshot 2025-04-27 122018.png)
+screenshots/Screenshot 2025-04-27 122018.png
 ### Sorting Visualization
-![Sorting Visualization](screenshots/Screenshot 2025-04-27 122106.png)
+screenshots/Screenshot 2025-04-27 122106.png
 ### queue Visualization
-![queue Visualization](screenshots/Screenshot 2025-04-27 122159.png)
+screenshots/Screenshot 2025-04-27 122159.png
 ### Graph Visualization
-![Graph Visualization](screenshots/Screenshot 2025-04-27 122238.png)
+screenshots/Screenshot 2025-04-27 122238.png
 ### Hash Operations
-![Hash Operation](screenshots/Screenshot 2025-04-27 122302.png)
+screenshots/Screenshot 2025-04-27 122302.png
 
 Array sorting animation
 
