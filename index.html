@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>dataflow</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>🌊 DataFlow</h1>
+  </header>
+  <div class="wrapper">
+    <aside class="sidebar">
+      <ul class="menu">
+
+        <li>
+          <button onclick="toggleSubmenu('array-sub')">Array ▾</button>
+          <ul class="submenu hidden" id="array-sub">
+            <li><button onclick="loadSection('searching')">Searching</button></li>
+            <li><button onclick="loadSection('sorting')">Sorting</button></li>
+          </ul>
+        </li>
+        <li>
+            <button onclick="toggleSubmenu('stack-sub')">Stack ▾</button>
+            <ul class="submenu hidden" id="stack-sub">
+              <li><button onclick="loadSection('stack-array')">Array-based</button></li>
+              <li><button onclick="loadSection('stack-linkedlist')">Linked List-based</button></li>
+            </ul>
+          </li>
+          <li>
+            <button onclick="toggleSubmenu('queue-sub')">Queue ▾</button>
+            <ul class="submenu hidden" id="queue-sub">
+              <li><button onclick="loadSection('queue-array')">Array-based</button></li>
+              <li><button onclick="loadSection('queue-linkedlist')">Linked List-based</button></li>
+            </ul>
+          </li>
+          
+          <li>
+            <button onclick="toggleSubmenu('tree-sub')">Tree ▾</button>
+            <ul class="submenu hidden" id="tree-sub">
+              <li><button onclick="loadSection('binary-search-tree')">Binary Search Tree</button></li>
+              <li><button onclick="loadSection('avl-tree')">AVL Tree</button></li>
+            </ul>
+          </li>
+          <li>
+            <button onclick="toggleSubmenu('graph-sub')">Graph ▾</button>
+  
+            <ul class="submenu hidden" id="graph-sub">
+              <li><button onclick="loadSection('dfs')">DFS</button></li>
+              <li><button onclick="loadSection('bfs')">BFS</button></li>
+              <li><button onclick="loadSection('prims')">Prim's</button></li>
+              <li><button onclick="loadSection('krushkal')">Kruskal's</button></li>
+            </ul>
+          </li>
+          
+          <li>
+            <button onclick="toggleSubmenu('hash-sub')">Hash ▾</button>
+            <ul class="submenu hidden" id="hash-sub">
+              <li><button onclick="loadSection('open-addressing')">Open Addressing</button></li>
+              <li><button onclick="loadSection('chaining')">Chaining</button></li>
+            </ul>
+          </li>
+      </ul>
+    </aside>
+    <main class="content" id="content-area">
+      <p>Select a topic from the sidebar to get started.</p>
+      <div id="bstChart"></div>
+    </main>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

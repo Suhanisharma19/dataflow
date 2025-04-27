@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #f4f6f8;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  header {
+    background-color: #2c3e50;
+    padding: 1px;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .wrapper {
+    display: flex;
+    height: calc(100vh - 80px); 
+    overflow: hidden;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #34495e;
+    padding: 20px;
+    color: white;
+    overflow-y: auto;
+  }
+  
+  .sidebar .menu {
+    list-style: none;
+  }
+  
+  .sidebar .menu button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .sidebar .menu .submenu {
+    list-style: none;
+    margin-left: 10px;
+  }
+  
+  .sidebar .menu .submenu li button {
+    background-color: #3c5870;
+    font-size: 14px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: white;
+    overflow-y: auto;
+    position: relative;
+  }
+  .visual-chart {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .code-block {
+    background: #1e1e1e;
+    color: #dcdcdc;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-family: 'Courier New', monospace;
+    margin-top: 1rem;
+    line-height: 1.5;
+  }
+  
+  .code-block span {
+    display: block;
+  }
+  
+  .code-block .highlight {
+    background: #333;
+    color: #00ff00;
+  }
+  
+  .code-block span.highlight {
+    background-color: rgb(138, 138, 92);
+  }
